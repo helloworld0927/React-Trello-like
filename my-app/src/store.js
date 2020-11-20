@@ -2,8 +2,6 @@ import { combineReducers, createStore } from "redux";
 import throttle from "lodash.throttle";
 import seed from "./seed";
 
-// Board reducer
-// reducer of the board that let us add, move (for the drag and drop) and delete a list id from the array.
 const board = (state = { lists: [] }, action) => {
   switch (action.type) {
     case "ADD_LIST": {
@@ -28,9 +26,6 @@ const board = (state = { lists: [] }, action) => {
   }
 };
 
-// Lists reducer
-// store the lists in an object where the keys are the ids of the lists
-// so that it can access the details of individual lists
 const listsById = (state = {}, action) => {
   switch (action.type) {
     case "ADD_LIST": {
@@ -103,8 +98,6 @@ const listsById = (state = {}, action) => {
   }
 };
 
-// Cards reducer
-// we have action to add a card, change its title and delete it
 const cardsById = (state = {}, action) => {
   switch (action.type) {
     case "ADD_CARD": {
@@ -134,8 +127,6 @@ const cardsById = (state = {}, action) => {
       return state;
   }
 };
-
-// Create and persists store
 
 const reducers = combineReducers({
   board,

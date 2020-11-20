@@ -1,11 +1,11 @@
 import "../styles/Board.css";
-import AddList from "./AddList";
 
 import React, { Component } from "react";
 import { connect } from "react-redux";
+import { DragDropContext, Droppable } from "react-beautiful-dnd";
 
 import List from "./List";
-import { DragDropContext, Droppable } from "react-beautiful-dnd";
+import AddList from "./AddList";
 
 class Board extends Component {
   state = {
@@ -35,7 +35,24 @@ class Board extends Component {
       }
       return;
     }
+
+    // Move card
+    if (
+      source.index !== destination.index ||
+      source.droppableId !== destination.droppableId
+    ) {
+      dispatch({
+        type: "MOVE_CARD",
+        payload: {
+          sourceListId: source.droppableId,
+          destListId: destination.droppableId,
+          oldCardIndex: source.index,
+          newCardIndex: destination.index,
+        },
+      });
+    }
   };
+
   render() {
     const { board } = this.props;
     const { addingList } = this.state;
@@ -59,7 +76,7 @@ class Board extends Component {
                     onClick={this.toggleAddingList}
                     className="Add-List-Button"
                   >
-                    <ion-icon name="add" /> Add a list
+                    <ion-icon name="add" /> Add a list...
                   </div>
                 )}
               </div>

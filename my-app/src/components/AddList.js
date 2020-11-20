@@ -3,8 +3,9 @@ import "../styles/AddList.css";
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import ListEditor from "./ListEditor";
-import shortid from "shortid";
 import EditButtons from "./EditButtons";
+
+import shortid from "shortid";
 
 class AddList extends Component {
   state = {
@@ -14,6 +15,7 @@ class AddList extends Component {
   handleChangeTitle = (e) => this.setState({ title: e.target.value });
 
   createList = async () => {
+    console.log("click1");
     const { title } = this.state;
     const { dispatch } = this.props;
 

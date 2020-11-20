@@ -30,7 +30,7 @@ class CardEditor extends Component {
           <TextareaAutosize
             autoFocus
             className="Edit-Card-Textarea"
-            placeholder="Enter the text for this card..."
+            placeholder="Enter text..."
             value={text}
             onChange={this.handleChangeText}
             onKeyDown={this.onEnter}

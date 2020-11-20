@@ -1,12 +1,12 @@
 import shortid from "shortid";
-
+// eslint-disable-next-line
 export default (store) => {
   console.log("Insert first list");
   const firstListId = shortid.generate();
 
   store.dispatch({
     type: "ADD_LIST",
-    payload: { listId: firstListId, listTitle: "First list" },
+    payload: { listId: firstListId, listTitle: "List 1" },
   });
 
   store.dispatch({
@@ -14,7 +14,7 @@ export default (store) => {
     payload: {
       listId: firstListId,
       cardId: shortid.generate(),
-      cardText: "First card",
+      cardText: "Card 1",
     },
   });
 
@@ -23,7 +23,7 @@ export default (store) => {
     payload: {
       listId: firstListId,
       cardId: shortid.generate(),
-      cardText: "Second card",
+      cardText: "Card 2",
     },
   });
 
@@ -32,7 +32,7 @@ export default (store) => {
 
   store.dispatch({
     type: "ADD_LIST",
-    payload: { listId: secondListId, listTitle: "Second list" },
+    payload: { listId: secondListId, listTitle: "List 2" },
   });
 
   store.dispatch({
