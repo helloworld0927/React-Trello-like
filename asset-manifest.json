@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Midterm_Front-End/static/css/main.2b01fcb5.chunk.css",
-    "main.js": "/Midterm_Front-End/static/js/main.5e5e58fd.chunk.js",
-    "main.js.map": "/Midterm_Front-End/static/js/main.5e5e58fd.chunk.js.map",
+    "main.css": "/Midterm_Front-End/static/css/main.832382d8.chunk.css",
+    "main.js": "/Midterm_Front-End/static/js/main.36f0d1a6.chunk.js",
+    "main.js.map": "/Midterm_Front-End/static/js/main.36f0d1a6.chunk.js.map",
     "runtime-main.js": "/Midterm_Front-End/static/js/runtime-main.f479030c.js",
     "runtime-main.js.map": "/Midterm_Front-End/static/js/runtime-main.f479030c.js.map",
-    "static/js/2.5a0774a5.chunk.js": "/Midterm_Front-End/static/js/2.5a0774a5.chunk.js",
-    "static/js/2.5a0774a5.chunk.js.map": "/Midterm_Front-End/static/js/2.5a0774a5.chunk.js.map",
+    "static/js/2.b80c7c12.chunk.js": "/Midterm_Front-End/static/js/2.b80c7c12.chunk.js",
+    "static/js/2.b80c7c12.chunk.js.map": "/Midterm_Front-End/static/js/2.b80c7c12.chunk.js.map",
     "index.html": "/Midterm_Front-End/index.html",
-    "static/css/main.2b01fcb5.chunk.css.map": "/Midterm_Front-End/static/css/main.2b01fcb5.chunk.css.map",
-    "static/js/2.5a0774a5.chunk.js.LICENSE.txt": "/Midterm_Front-End/static/js/2.5a0774a5.chunk.js.LICENSE.txt"
+    "static/css/main.832382d8.chunk.css.map": "/Midterm_Front-End/static/css/main.832382d8.chunk.css.map",
+    "static/js/2.b80c7c12.chunk.js.LICENSE.txt": "/Midterm_Front-End/static/js/2.b80c7c12.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.f479030c.js",
-    "static/js/2.5a0774a5.chunk.js",
-    "static/css/main.2b01fcb5.chunk.css",
-    "static/js/main.5e5e58fd.chunk.js"
+    "static/js/2.b80c7c12.chunk.js",
+    "static/css/main.832382d8.chunk.css",
+    "static/js/main.36f0d1a6.chunk.js"
   ]
 }
