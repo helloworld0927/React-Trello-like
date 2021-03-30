@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/React-Trello-like/static/css/main.a17baee3.chunk.css",
-    "main.js": "/React-Trello-like/static/js/main.91ce6f68.chunk.js",
-    "main.js.map": "/React-Trello-like/static/js/main.91ce6f68.chunk.js.map",
+    "main.js": "/React-Trello-like/static/js/main.6ce11ad4.chunk.js",
+    "main.js.map": "/React-Trello-like/static/js/main.6ce11ad4.chunk.js.map",
     "runtime-main.js": "/React-Trello-like/static/js/runtime-main.a84b7fb0.js",
     "runtime-main.js.map": "/React-Trello-like/static/js/runtime-main.a84b7fb0.js.map",
     "static/js/2.ca46dbcc.chunk.js": "/React-Trello-like/static/js/2.ca46dbcc.chunk.js",
@@ -15,6 +15,6 @@
     "static/js/runtime-main.a84b7fb0.js",
     "static/js/2.ca46dbcc.chunk.js",
     "static/css/main.a17baee3.chunk.css",
-    "static/js/main.91ce6f68.chunk.js"
+    "static/js/main.6ce11ad4.chunk.js"
   ]
 }
