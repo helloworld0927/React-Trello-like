@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Midterm_Front-End/static/css/main.832382d8.chunk.css",
-    "main.js": "/Midterm_Front-End/static/js/main.36f0d1a6.chunk.js",
-    "main.js.map": "/Midterm_Front-End/static/js/main.36f0d1a6.chunk.js.map",
-    "runtime-main.js": "/Midterm_Front-End/static/js/runtime-main.f479030c.js",
-    "runtime-main.js.map": "/Midterm_Front-End/static/js/runtime-main.f479030c.js.map",
-    "static/js/2.b80c7c12.chunk.js": "/Midterm_Front-End/static/js/2.b80c7c12.chunk.js",
-    "static/js/2.b80c7c12.chunk.js.map": "/Midterm_Front-End/static/js/2.b80c7c12.chunk.js.map",
-    "index.html": "/Midterm_Front-End/index.html",
-    "static/css/main.832382d8.chunk.css.map": "/Midterm_Front-End/static/css/main.832382d8.chunk.css.map",
-    "static/js/2.b80c7c12.chunk.js.LICENSE.txt": "/Midterm_Front-End/static/js/2.b80c7c12.chunk.js.LICENSE.txt"
+    "main.css": "/React-Trello-like/static/css/main.a17baee3.chunk.css",
+    "main.js": "/React-Trello-like/static/js/main.91ce6f68.chunk.js",
+    "main.js.map": "/React-Trello-like/static/js/main.91ce6f68.chunk.js.map",
+    "runtime-main.js": "/React-Trello-like/static/js/runtime-main.a84b7fb0.js",
+    "runtime-main.js.map": "/React-Trello-like/static/js/runtime-main.a84b7fb0.js.map",
+    "static/js/2.ca46dbcc.chunk.js": "/React-Trello-like/static/js/2.ca46dbcc.chunk.js",
+    "static/js/2.ca46dbcc.chunk.js.map": "/React-Trello-like/static/js/2.ca46dbcc.chunk.js.map",
+    "index.html": "/React-Trello-like/index.html",
+    "static/css/main.a17baee3.chunk.css.map": "/React-Trello-like/static/css/main.a17baee3.chunk.css.map",
+    "static/js/2.ca46dbcc.chunk.js.LICENSE.txt": "/React-Trello-like/static/js/2.ca46dbcc.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.f479030c.js",
-    "static/js/2.b80c7c12.chunk.js",
-    "static/css/main.832382d8.chunk.css",
-    "static/js/main.36f0d1a6.chunk.js"
+    "static/js/runtime-main.a84b7fb0.js",
+    "static/js/2.ca46dbcc.chunk.js",
+    "static/css/main.a17baee3.chunk.css",
+    "static/js/main.91ce6f68.chunk.js"
   ]
 }
