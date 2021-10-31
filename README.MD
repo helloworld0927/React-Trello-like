@@ -1,4 +1,4 @@
-###React Trello Clone
+### React Trello Clone
 
 > https://helloworld0927.github.io/Midterm_Front-End
 
