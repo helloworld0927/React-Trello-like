@@ -1,6 +1,6 @@
-### React Trello Clone
+# React Trello Clone
 
-> https://helloworld0927.github.io/Midterm_Front-End
+> https://helloworld0927.github.io/React-Trello-like/
 
 - Project was develop within 8-hours
 - Responsive and extensible
